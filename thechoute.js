@@ -1837,7 +1837,7 @@ case 'miperfil':
                 try {
                 ppimg = await leo.getProfilePicture(`${sender.split('@')[0]}@c.us`)
                 } catch {
-                ppimg = 'https://i.ibb.co/gDJ29Jt/Baby-Foto-Perfil.jpg'}
+                ppimg = 'https://i.pinimg.com/550x/ce/e9/93/cee993e272a3d0df61a7feb3b2427d8a.jpg'}
                 tu = await leo.getStatus(`${sender.split('@')[0]}@c.us`, MessageType.text)
 teks = 
 `👤 *Nombre* : @${sender.split("@")[0]}
