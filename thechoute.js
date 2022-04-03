@@ -1071,11 +1071,7 @@ if (choute.message.listResponseMessage){
 📋 *INFO:* ${tu.status}
 `
 its = await getBuffer (ppimg)
-    leo.sendMessage(from,  its, image, {thumbnail:fs.readFileSync('./media/imagen/Faketumber.jpg'), quoted: choute, caption: teks, contextInfo: { mentionedJid: [sender], "forwardingScore": 508, "isForwarded": true, "externalAdReply": 
-    {"title": 'Cuenta de Instagram',       
-    "body": 'Sigueme en Instagram',  
-    "thumbnail": fs.readFileSync('./media/imagen/instagram.png'),
-    "sourceUrl": 'https://www.instagram.com/the_choute_/'}}})
+    leo.sendMessage(from,  its, image, {thumbnail:fs.readFileSync('./media/imagen/Faketumber.jpg'), quoted: choute, caption: teks})
       addFilter(from)  
   addLevelingLevel(sender, 5)	}}
 
@@ -1085,7 +1081,7 @@ if (choute.message.listResponseMessage){
   if (test.includes(`recomendaciones`)){
   leo.updatePresence(from, Presence.composing)
   if (!isRegister) return leoply(baby.only.usrReg)
-tampa = leo.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 9999999, "message": `${reglas}`, "footerText": "*𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊*", "thumbnail": fs.readFileSync('./media/imagen/imgregla.jpg'), "surface": 'CATALOG' }}, {contextInfo: { mentionedJid: [sender,ownerNumber]}, quoted:choute, })
+tampa = leo.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 9999999, "message": `${reglas}`, "footerText": "*Panqueque*", "thumbnail": fs.readFileSync('./media/imagen/imgregla.jpg'), "surface": 'CATALOG' }}, {contextInfo: { mentionedJid: [sender,ownerNumber]}, quoted:choute, })
 leo.relayWAMessage(tampa)
   addFilter(from)
   addLevelingLevel(sender, 5)	}}
@@ -1819,6 +1815,7 @@ txtt = `┌────「 *REGISTRADO* 」─
 [💈] *SERIAL* _${serialUser}_
 └────「 *𝓹𝓪𝓷𝓺𝓾𝓮𝓺𝓾𝓮 * 」
 Verificación completa usa *${prefix}menu* para ver el Menu`
+     let tampa = await getBuffer(ppimg)
     //leo.sendMessage(from, tampa, image, {quoted: choute, caption: capt})
     buttons1 = [ {buttonId:`mlq`,buttonText:{displayText: 'Lista de Menus'},type:1}],
     imageMsg = (await leo.prepareMessageMedia((tampa), 'imageMessage', {thumbnail: fs.readFileSync(`./media/imagen/fake.jpg`)})).imageMessage
@@ -2719,7 +2716,7 @@ case 'nuevo':
   if (!q.includes('|')) return  reply(`*PORFAVOR ESCRIBE BIEN EL FORMATO:* ${prefix + command} *texto1|texto2*\n\n_Separa el texto 1 del texto 2 con el simbolo "|"_`)
   reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${texto1 + texto2}!*`)		
   logo = `https://api.zeks.me/api/wolflogo?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text1=${texto1}&text2=${texto2}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓹𝓪𝓷𝓺𝓾𝓮𝓺𝓾𝓮', sendEphemeral: true})
   break
     
   case 'flores':
