@@ -74,8 +74,8 @@ const { reglas, logos } = require ('./lib/reglas')
 const {janza, janz, menuall, qmiembros, brillo, choute, cnal} = require ('./lib/baby.js')
 //const {bechoso} = require ('./lib/exportaciones/bechoso')
 const { vor } = require ('./lib/baby/vor')
-const { A, B, C, D, E, F, G, H, I, J, K, L, M, N, Ñ, O, P, Q, R, S, T, U, V, W, X, Y, Z } = require ('./lib/baby/verdad')
-const {R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, } = require ('./lib/baby/retos')
+const { A, B, C, D, E, F, G, H, I, J, K, L, M, N, Ñ, O, P, Q, R, S, T, U, V, W, X, Y, Z, AA, AB, AC, AD, AE, AF, AG, AH, AI, AJ,} = require ('./lib/baby/verdad')
+const {R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27,R28, R29, R30, R31, R32, R33, R34, R35, R36, } = require ('./lib/baby/retos')
 //ᴘᴀʀᴀ ᴇʟ ᴍᴇɴᴜ ᴅᴇ ʙᴏᴛᴏɴᴇꜱ
 //const { linkgp } = require ('./lib/exportaciones/linkgp')
 const {grupos, admin, m18, multimedia, owener,extra, entrete, menual, menusticker} = require ('./lib/menus/menu');
@@ -1273,7 +1273,7 @@ test = choute.message.buttonsResponseMessage.selectedButtonId
 if (test.includes(`verdad`)){
   if (isBan) return leoply  (baby.only.benned)	
   if (!isRegister) return leoply(baby.only.usrReg)
-  respuesta = [`${A}`,`${B}`,`${C}`, `${D}`,`${E}`,`${F}`,`${G}`,`${H}`,`${I}`,`${J}`,`${K}`,`${L}`,`${M}`,`${N}`,`${Ñ}`,`${O}`,`${P}`,`${Q}`,`${R}`,`${S}`,`${T}`,`${U}`,`${V}`,`${W}`,`${X}`,`${Y}`,`${Z}`,`${AA}`,`${AB}`,`${AC}`,`${AD}`,`${AE}`,`${AF}`,`${AG}`,`${AH}`,`${AI}`,`${AJ}]
+  respuesta = [`${A}`,`${B}`,`${C}`, `${D}`,`${E}`,`${F}`,`${G}`,`${H}`,`${I}`,`${J}`,`${K}`,`${L}`,`${M}`,`${N}`,`${Ñ}`,`${O}`,`${P}`,`${Q}`,`${R}`,`${S}`,`${T}`,`${U}`,`${V}`,`${W}`,`${X}`,`${Y}`,`${Z}`,`${AA}`,`${AB}`,`${AC}`,`${AD}`,`${AE}`,`${AF}`,`${AG}`,`${AH}`,`${AI}`,`${AJ}`]
   answer = respuesta[Math.floor(Math.random() * respuesta.length)]
   reply(answer)  
   addFilter(from)
