@@ -180,7 +180,7 @@ const getRegisteredRandomId = () => {
     try {
     ppimg = await leo.getProfilePicture(`${anu.participants[0].split('@')[0]}@c.us`)} 
     catch {
-    ppimg = 'https://i.ibb.co/gDJ29Jt/Baby-Foto-Perfil.jpg'}  
+    ppimg = 'https://i.pinimg.com/550x/3e/5f/75/3e5f75ce6e3cef33bfae76bee31d76db.jpg'}  
     
      teks = 
   `Hola, @${num.split('@')[0]}
@@ -796,7 +796,7 @@ const texto11 = `
 ╰━─━─☾︎🌊☽︎─━─━╯`
 const cmenu = `
 ╔╦══• •✠•❀•✠ • •══╦╗
-  	𝕿𝖚𝖙𝖞 
+  	   𝕿𝖚𝖙𝖞 
 ╚╩══• •✠•❀•✠ • •══╩╝
 ▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀
 Buenas tardes🌇 _@${sender.split('@')[0]}_
@@ -901,7 +901,7 @@ const allmenu =
 `
 ╔─━━━░★░━━━━╗
         *MENU OFICIAL*
-        𝕿𝖚𝖙𝖞
+           𝕿𝖚𝖙𝖞
 ╚─━━━░★░━━━─╝
 ¤ = ~ ~ ◉ ~~ = ¤.•♫•♬•♬•♫•.
 ${timeFt} @${sender.split('@')[0]}
@@ -924,14 +924,12 @@ Hoy es ${week1} ${calender1}
 [🔰] Ram: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 [🔰] Hora: ${hora}
 [🔰] Fecha: ${week1}  ${calender1}
-_PANQUEQUE ESTÁ AÚN EN EDICIÓN_
 ${menual}`
 
 const nuevo = `
 ||- *_-LO NUEVO-_*
 Mas de 100 comandos nuevos
-Gran Variedad de comandos para fanes del anime
-Serbot
+Gran Variedad de comandos para fanes del anime:
 Comandos +18
 AutoSticker
 *NOTA:*
@@ -952,7 +950,7 @@ Los errores de LOGOS pueden seguir fallando`
         ownerB: 'Este comandos solo puede ser utilizado desde el numero de panqueque',
         admin: 'Este comando es solo para administradores del grupo',
         Badmin: 'Panqueque debe ser admin para poder usar este comando uwu',
-        usrReg: `No estas registrado para registrarte utiliza\n${prefix}reg\n\n*Ejemplo:*\n\n${prefix}reg Thechoute|14`
+        usrReg: `No estas registrado para registrarte utiliza\n${prefix}reg\n\n*Ejemplo:*\n\n${prefix}reg TuNombre|TuEdad`
       }
     }
 
@@ -1138,7 +1136,7 @@ if (choute.message.listResponseMessage){
     if (test.includes(`sticke`)){
     leo.updatePresence(from, Presence.composing)
     if (!isRegister) return leoply(baby.only.usrReg)    
-    fansh = leo.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 0, "totalAmount1000" : '1000', "message": `${menusticker}\n\n\n © Edit code 𝕿𝖚𝖙𝖞`, "footerText": "*Panqueque*", "thumbnail": fs.readFileSync('./media/imagen/cosplay/25.jpg'), "surface": 'CATALOG', "orderTitle": 'Sexo'}}, {contextInfo: { mentionedJid: [sender]}, quoted:choute, })
+    fansh = leo.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 0, "totalAmount1000" : '1000', "message": `${menusticker}\n\n\n © Edit code 𝕿𝖚𝖙𝖞`, "footerText": "*Panqueque*", "thumbnail": fs.readFileSync('./media/imagen/Faketumbera'), "surface": 'CATALOG', "orderTitle": 'Sexo'}}, {contextInfo: { mentionedJid: [sender]}, quoted:choute, })
     leo.relayWAMessage(fansh)
     addFilter(from)
     addLevelingLevel(sender, 5)	}}
@@ -1800,15 +1798,15 @@ const serialUser = createSerial(12)
 const momento = require('moment-timezone')
 const time = momento.tz('America/Santo_Domingo').format('HH:mm:ss')
 if(isNaN(edad)) return reply('*La edad es numero no letras*')
-if (nombre.length >= 10) return reply(`Mi escriba un nombre con menos de 10 letras, no queremos un puente de letras`)
+if (nombre.length >= 10) return reply(`Escriba un nombre con menos de 10 letras, no queremos un puente de letras`)
 if (edad > 30) return reply(`Pero-\n*Tienes mas de  30 años, no te puedes registrar, mejor cuida tus nietos :D*`)
-if (edad < 13) return reply(`Eres menor de 13 años, mejor vete a limpiarte el culo, que para ti no hay registro.\n*Si me das algo puedo hacer la vista gorda :D*`)
+if (edad < 13) return reply(`Eres menor de 13 años, mejor vete a ver barney que para ti no hay registro.\n*Si me das algo puedo hacer la vista gorda :D*`)
 function _0x2ebb(){const _0x1f3a36=['596272DpXnFJ','3014956bQCwYI','305JopJQj','random','2228ohmCxL','length','536emrlcz','10PFFhRj','58842aSBvqN','43842MEaDFW','9503252VrVLos','967866wYoLpq','floor','786TgYlYm'];_0x2ebb=function(){return _0x1f3a36;};return _0x2ebb();}const _0x30a7da=_0x5a02;function _0x5a02(_0x53b46b,_0x2e0f92){const _0x2ebb0e=_0x2ebb();return _0x5a02=function(_0x5a027e,_0x5d59a6){_0x5a027e=_0x5a027e-0x192;let _0x4492c1=_0x2ebb0e[_0x5a027e];return _0x4492c1;},_0x5a02(_0x53b46b,_0x2e0f92);}(function(_0x21bf49,_0x2c895d){const _0x4774dd=_0x5a02,_0x36356f=_0x21bf49();while(!![]){try{const _0x3b0a2f=-parseInt(_0x4774dd(0x19a))/0x1+-parseInt(_0x4774dd(0x197))/0x2+-parseInt(_0x4774dd(0x199))/0x3*(-parseInt(_0x4774dd(0x19e))/0x4)+parseInt(_0x4774dd(0x19c))/0x5*(parseInt(_0x4774dd(0x195))/0x6)+parseInt(_0x4774dd(0x19b))/0x7+-parseInt(_0x4774dd(0x192))/0x8*(parseInt(_0x4774dd(0x194))/0x9)+parseInt(_0x4774dd(0x193))/0xa*(parseInt(_0x4774dd(0x196))/0xb);if(_0x3b0a2f===_0x2c895d)break;else _0x36356f['push'](_0x36356f['shift']());}catch(_0x570495){_0x36356f['push'](_0x36356f['shift']());}}}(_0x2ebb,0x59db2));const n1='1',n2='2',n3='3',n4='4',n5='5',n6='6',n7='7',n8='8',n9='9',n0='0',N1=[''+n1,''+n2,''+n3,''+n4,''+n5,''+n6,''+n7,''+n8,''+n9,''+n0],h1=N1[Math[_0x30a7da(0x198)](Math['random']()*N1[_0x30a7da(0x19f)])],N2=[''+n1,''+n2,''+n3,''+n4,''+n5,''+n6,''+n7,''+n8,''+n9,''+n0],e1=N2[Math[_0x30a7da(0x198)](Math[_0x30a7da(0x19d)]()*N2[_0x30a7da(0x19f)])],N3=[''+n1,''+n2,''+n3,''+n4,''+n5,''+n6,''+n7,''+n8,''+n9,''+n0],ee=N3[Math[_0x30a7da(0x198)](Math['random']()*N3[_0x30a7da(0x19f)])],N4=[''+n1,''+n2,''+n3,''+n4,''+n5,''+n6,''+n7,''+n8,''+n9,''+n0],c=N4[Math[_0x30a7da(0x198)](Math['random']()*N4[_0x30a7da(0x19f)])],N5=[''+n1,''+n2,''+n3,''+n4,''+n5,''+n6,''+n7,''+n8,''+n9,''+n0],h=N5[Math['floor'](Math[_0x30a7da(0x19d)]()*N5['length'])],N6=[''+n1,''+n2,''+n3,''+n4,''+n5,''+n6,''+n7,''+n8,''+n9,''+n0],o=N6[Math['floor'](Math[_0x30a7da(0x19d)]()*N6[_0x30a7da(0x19f)])],N7=[''+n1,''+n2,''+n3,''+n4,''+n5,''+n6,''+n7,''+n8,''+n9,''+n0],u=N7[Math[_0x30a7da(0x198)](Math[_0x30a7da(0x19d)]()*N7[_0x30a7da(0x19f)])],N8=[''+n1,''+n2,''+n3,''+n4,''+n5,''+n6,''+n7,''+n8,''+n9,''+n0],t=N8[Math[_0x30a7da(0x198)](Math[_0x30a7da(0x19d)]()*N8[_0x30a7da(0x19f)])],N9=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','Ñ','O','P','Q','R','S','T','U','V','W','X','Y','Z'],e=N9[Math[_0x30a7da(0x198)](Math[_0x30a7da(0x19d)]()*N9[_0x30a7da(0x19f)])],DNI=''+h1+e1+ee+c+h+o+u+t+e;
 try {
     ppimg = await leo.getProfilePicture(`${sender.split('@')[0]}@s.whatsapp.net`)
     } 
     catch {
-    ppimg = 'https://i.ibb.co/gDJ29Jt/Baby-Foto-Perfil.jpg'
+    ppimg = 'https://parrillas.top/wp-content/uploads/2020/01/Receta-de-panqueques-de-avena-y-platano.jpg'
     }
     veri = sender                                                
 addRegisteredUser(sender, pushname, nombre, edad, time, serialUser)
@@ -1819,9 +1817,8 @@ txtt = `┌────「 *REGISTRADO* 」─
 [💈] *HORA* _${time}_
 [💈] *DNI* _${DNI}_
 [💈] *SERIAL* _${serialUser}_
-└────「 *𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊* 」
+└────「 *𝓹𝓪𝓷𝓺𝓾𝓮𝓺𝓾𝓮 * 」
 Verificación completa usa *${prefix}menu* para ver el Menu`
-    let tampa = await getBuffer(ppimg)
     //leo.sendMessage(from, tampa, image, {quoted: choute, caption: capt})
     buttons1 = [ {buttonId:`mlq`,buttonText:{displayText: 'Lista de Menus'},type:1}],
     imageMsg = (await leo.prepareMessageMedia((tampa), 'imageMessage', {thumbnail: fs.readFileSync(`./media/imagen/fake.jpg`)})).imageMessage
@@ -2569,7 +2566,7 @@ case 'menu':
                 if (isBan) return leoply  (baby.only.benned)	
                 reply('Cargando Menu, Porfavor no hacer spam de mensaje')
                txtt =`${cmenu}`              
-                sendButLocation(from, `${txtt}`, `Si no ves los botones, escribe ${prefix}botones, para que te aparezca la soluccion.\nCreador @${ownerNumber.split("@")[0]}`, fs.readFileSync("./media/imagen/absu.jpg"),
+                sendButLocation(from, `${txtt}`, `© Edit code 𝕿𝖚𝖙𝖞'`, fs.readFileSync("./media/imagen/absu.jpg"),
                 buttons =[ {buttonId:`mlq`,buttonText:{displayText: 'Lista de Menus'},type:1},
                 {buttonId:`nuevo`,buttonText:{displayText:'LO NUEVO DEL BOT'},type:1}],
                 {contextInfo: { mentionedJid: [sender,ownerNumber]}})
