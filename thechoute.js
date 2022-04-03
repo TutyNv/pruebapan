@@ -1187,11 +1187,10 @@ addLevelingLevel(sender, 5)	}}
       leo.updatePresence(from, Presence.composing)
       if (!isRegister) return leoply(baby.only.usrReg)
       uptime = process.uptime()
-        leo.sendMessage(from,  fs.readFileSync('./media/imagen/M18.jpg'), image, {thumbnail:fs.readFileSync('./media/imagen/fake18.jpg'), quoted: choute, caption: `${m18}`, contextInfo: { mentionedJid: [sender], "forwardingScore": 508, "isForwarded": true, "externalAdReply": 
+        leo.sendMessage(from,  fs.readFileSync('./media/imagen/fakae.jpg'), image, {thumbnail:fs.readFileSync('./media/imagen/fake18.jpg'), quoted: choute, caption: `${m18}`, contextInfo: { mentionedJid: [sender], "forwardingScore": 508, "isForwarded": true, "externalAdReply": 
         {"title": 'Uso Bajo Su Responsabilidad',       
         "body": 'descripción',  
-        "thumbnail": fs.readFileSync('./media/imagen/d.jpg'),
-        "sourceUrl": 'https://chat.whatsapp.com/GbfFmbRujNz33XoBz1Gljg'}}})
+        "thumbnail": fs.readFileSync('./media/imagen/d.jpg')}}})
 
       }}
   
